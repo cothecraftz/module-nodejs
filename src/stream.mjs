@@ -10,5 +10,5 @@ writer.end();
 const reader = fs.createReadStream('data/target-stream.log');
 
 reader.addListener('data', (data) => {
-    console.info(data.toString());
+  console.info(data.toString());
 });

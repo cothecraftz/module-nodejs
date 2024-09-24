@@ -6,7 +6,7 @@ process.report.reportOnSignal = true;
 process.report.filename = 'data/report-error.json';
 
 function newError() {
-    throw new Error('Upss!!!');
+  throw new Error('Upss!!!');
 }
 
 newError();
