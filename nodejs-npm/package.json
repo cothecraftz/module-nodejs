@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-npm",
+  "version": "1.0.0",
+  "description": "Belajar NodeJs npm",
+  "exports": {
+    ".": "./src/index.js",
+    "./write": "./src/write.js"
+  },
+  "scripts": {
+    "dev": "node src/index.js",
+    "prestart": "echo 'Before app start' ",
+    "start": "node src/index.js",
+    "poststart": "echo 'After app start' ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "codesann",
+    "nodejs",
+    "npm"
+  ],
+  "author": "Joko Santoso",
+  "license": "ISC",
+  "type": "module"
+}
