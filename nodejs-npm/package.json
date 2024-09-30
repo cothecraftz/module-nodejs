@@ -20,5 +20,12 @@
   ],
   "author": "Joko Santoso",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "nodejs-npm-library-codesann": "^1.0.0"
+  },
+  "devDependencies": {
+    "moment": "^2.30.1"
+  }
 }
