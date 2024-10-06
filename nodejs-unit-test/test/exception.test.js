@@ -8,3 +8,7 @@ test('exception', () => {
   expect(() => callMe('Joko')).toThrow(MyException);
   expect(() => callMe('Joko')).toThrow('Ups my exception heppens!');
 });
+
+test('exeption Ok', () => {
+  expect(callMe('Budi')).toBe('Ok');
+});
