@@ -1,0 +1,70 @@
+{
+  "date": "Mon Oct 14 2024 21:49:05 GMT+0700 (Western Indonesia Time)",
+  "error": {},
+  "exception": true,
+  "level": "error",
+  "message": "uncaughtException: hello is not defined\nReferenceError: hello is not defined\n    at file:///C:/Users/joko7/code/learn/nodejs/nodejs-pzn/nodejs-logging/src/logging-exception.js:14:1\n    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)\n    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)\n    at async loadESM (node:internal/process/esm_loader:28:7)\n    at async handleMainPromise (node:internal/modules/run_main:113:12)",
+  "os": { "loadavg": [0, 0, 0], "uptime": 397269.734 },
+  "process": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\joko7\\code\\learn\\nodejs\\nodejs-pzn\\nodejs-logging\\src\\logging-exception.js"
+    ],
+    "cwd": "C:\\Users\\joko7\\code\\learn\\nodejs\\nodejs-pzn\\nodejs-logging",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "gid": null,
+    "memoryUsage": {
+      "arrayBuffers": 10515,
+      "external": 1875490,
+      "heapTotal": 10657792,
+      "heapUsed": 7273368,
+      "rss": 38973440
+    },
+    "pid": 20936,
+    "uid": null,
+    "version": "v20.11.0"
+  },
+  "stack": "ReferenceError: hello is not defined\n    at file:///C:/Users/joko7/code/learn/nodejs/nodejs-pzn/nodejs-logging/src/logging-exception.js:14:1\n    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)\n    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)\n    at async loadESM (node:internal/process/esm_loader:28:7)\n    at async handleMainPromise (node:internal/modules/run_main:113:12)",
+  "trace": [
+    {
+      "column": 1,
+      "file": "file:///C:/Users/joko7/code/learn/nodejs/nodejs-pzn/nodejs-logging/src/logging-exception.js",
+      "function": null,
+      "line": 14,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 25,
+      "file": "node:internal/modules/esm/module_job",
+      "function": "ModuleJob.run",
+      "line": 218,
+      "method": "run",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/esm/loader",
+      "function": "async ModuleLoader.import",
+      "line": 329,
+      "method": "import",
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:internal/process/esm_loader",
+      "function": "async loadESM",
+      "line": 28,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/run_main",
+      "function": "async handleMainPromise",
+      "line": 113,
+      "method": null,
+      "native": false
+    }
+  ]
+}
