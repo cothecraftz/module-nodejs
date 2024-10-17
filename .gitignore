@@ -2,4 +2,5 @@
 nodejs-npm/node_modules
 nodejs-unit-test/node_modules
 nodejs-logging/node_modules
+nodejs-express/node_modules
 nodejs-unit-test/coverage
