@@ -1,11 +1,11 @@
 import supertest from 'supertest';
 import { app } from '../src/hello';
 
-test('should be hello world', async () => {
+test('test response', async () => {
   app.get('/', (req, res) => {
-    res.json({ message: 'hello joko.' });
+    res.send('hello response');
   });
 
   const response = await supertest(app).get('/');
-  expect(response.body.message).toBe('hello joko.');
+  expect(response.text).toBe('hello response');
 });
