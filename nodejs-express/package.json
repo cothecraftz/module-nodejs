@@ -18,6 +18,7 @@
   "author": "Joko Santoso",
   "license": "ISC",
   "dependencies": {
+    "cookie-parser": "^1.4.7",
     "express": "^4.21.1",
     "winston": "^3.15.0"
   },
